@@ -1,0 +1,122 @@
+body {
+    background: none;
+}
+
+.alt-navbar {
+    background-image: url("http://www.jeremyriad.com/wp-content/uploads/2012/11/Series-of-Personifications-of-Childhood-Misdeeds-by-Minka-Podhajska1930.png");
+    background-size: cover;
+    margin: 0 auto;
+    height: 400px;
+}
+
+.navbar {
+    max-width: 300px;
+    float: left;
+    display: block;
+    position: fixed;
+    padding: none;
+}
+
+p {
+    font-family: 'Amatic SC', cursive;
+    font-size: 25px;
+}
+
+
+ul, a {
+    font-family: 'Gaegu', cursive;
+    font-weight: bold;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 30px;
+    text-shadow: 6px 8px 9px rgb(122, 119, 119);
+}
+
+h3 {
+    font-family: 'Monoton', cursive;
+    letter-spacing: 3px;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.catalog-logo {
+    text-align: center;
+}
+
+.container {
+    margin: 0 auto; 
+    width: 900px;
+}
+
+.page-header {
+    font-family: 'Monoton', cursive;
+    text-align: center;
+    font-size: 50px;
+}
+
+/* remove float to shift main image to top of page */
+.vintage-toy {
+    display: block;
+    /* float: right; */
+    margin: 5% auto;
+    width: 40%;
+    border-radius: 4px;
+    box-shadow: 6px 8px 9px rgb(122, 119, 119);
+}
+
+.vintage-collection {
+    display: block;
+    float: right;
+    margin: 0 auto;
+    width: 60%;
+}
+
+hr {
+    height: 20px;
+    background-color: rgb(123, 255, 0);
+    border: none;
+    box-shadow: 6px 8px 9px rgb(122, 119, 119);
+
+}
+
+.header-container, .catalog {
+    display: block;
+    margin: 6%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.toy-trains {
+    width: 900px;
+    margin: auto;
+}
+
+.trains {
+    width: 10%;
+    height: auto;
+    margin: 10px;
+    width: 45%;
+    /* padding: 10px; */
+    border: none;
+    box-shadow: 4px 4px 5px rgb(83, 75, 75);
+}
+
+.last-logo {
+    margin-bottom: 7%;
+}
+
+.special {
+    margin-top: 6%;
+    text-align: center;
+}
+
+.copyright {
+    font-family: 'Gaegu', cursive;
+    margin: 7%;    
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    text-shadow: 6px 8px 9px rgb(122, 119, 119);
+}
